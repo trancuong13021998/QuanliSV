@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="@color/gray"
+    android:gravity="center"
+    android:padding="12dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@color/white"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_login_layout"
+            >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/custom_buton"
+                    android:backgroundTint="#4285f4"
+                    android:layout_marginBottom="35dp"
+                    ></TextView>
+            <LinearLayout
+                android:orientation="vertical"
+                android:weightSum="9.2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="4dp"
+
+                android:gravity="center_horizontal">
+                <ImageView
+                    android:id="@+id/img_logo_haui"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.6"
+                    android:src="@drawable/logo_haui_size">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.4"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="@string/txt_truongdhcnhn" />
+                <TextView
+                    android:id="@+id/txt_svdangnhap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:text="@string/sinh_vi_n_ng_nh_p" />
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#C0C0C0"
+                    />
+
+                <EditText
+                    android:id="@+id/edtUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1.4"
+                    android:background="@drawable/custom_buton"
+                    android:gravity="center_vertical"
+                    android:hint="Tên đăng nhập"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="12dp"
+                    android:textColorHint="#9a9999" />
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.4"
+                    android:background="@drawable/custom_buton"
+                    android:gravity="center_vertical"
+                    android:hint="Mật khẩu"
+                    android:inputType="textPassword"
+                    android:paddingLeft="12dp"
+                    android:textColorHint="#9a9999" />
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.4"
+                    android:text="@string/ng_nh_p"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="15sp"
+                    android:background="@drawable/custom_buton"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="0.2"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/txt_banquenmk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:text="Bạn quên mật khẩu?"
+                        android:gravity="right|center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/txt_quenmk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="4dp"
+                        android:textColor="@color/blue_xemhuongdan_login"
+                        android:text="@string/qu_n_m_t_kh_u" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="0.2"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/txt_hdquenmk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:text="@string/h_ng_d_n_qu_n_m_t_kh_u"
+                        android:gravity="right|center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/txt_xemhd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="4dp"
+                        android:textColor="@color/blue_xemhuongdan_login"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/xem_h_ng_d_n" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuanLiSV</string>
+    <string name="txt_truongdhcnhn">Trường Đại Học Công Nghiệp Hà Nội</string>
+    <string name="sinh_vi_n_ng_nh_p">Sinh viên đăng nhập</string>
+    <string name="ng_nh_p">Đăng Nhập</string>
+    <string name="qu_n_m_t_kh_u">Quên mật khẩu</string>
+    <string name="xem_h_ng_d_n">Xem hướng dẫn</string>
+    <string name="h_ng_d_n_qu_n_m_t_kh_u">Hướng dẫn quên mật khẩu?</string>
+    <string name="m_sinh_vi_n">Mã sinh viên:</string>
+    <string name="l_p">Lớp</string>
+    <string name="khoa_quan_l">Khoa quan lý</string>
+    <string name="s_d_t_i_kho_n">Số dư tài khoản</string>
+</resources>
