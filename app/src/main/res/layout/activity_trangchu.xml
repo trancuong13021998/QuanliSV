@@ -6,15 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
+    android:background="@color/gray"
     tools:context=".activity.TrangchuActivity">
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/tb_gio_hang"
-        app:title="Giỏ hàng"
-        app:titleTextColor="#fff"
-        android:background="#1565C0"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize">
-    </androidx.appcompat.widget.Toolbar>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,29 +16,27 @@
         android:weightSum="10"
         android:padding="10dp">
 
-            <LinearLayout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclThongtin"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="2">
-                <fragment
-                    android:id="@+id/fragment_main"
-                    class="com.example.quanlisv.activity.FragmentActivitySv"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    tools:layout="@layout/fragment_sv">
-                </fragment>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="7.3">
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recyclerview_main"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                </androidx.recyclerview.widget.RecyclerView>
-            </LinearLayout>
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="7.3">-->
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/recyclerview_main"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+<!--            </androidx.recyclerview.widget.RecyclerView>-->
+<!--        </LinearLayout>-->
 
     </LinearLayout>
 
