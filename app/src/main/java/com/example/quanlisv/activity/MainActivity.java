@@ -59,9 +59,13 @@ public class MainActivity extends AppCompatActivity {
                         if(response.contains("1")){
                             Intent intent= new Intent(MainActivity.this, TrangchuActivity.class);
                             intent.putExtra("masv",user);
-                            //intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                             startActivity(intent);
                             //onDestroy();
+                        }
+                        else if (response.contains("2")){
+                            Intent intent= new Intent(MainActivity.this, ChuongTrinhDaoTaoActivity.class);
+                            intent.putExtra("masv",user);
+                            startActivity(intent);
                         }
                         else {
                             Toast.makeText(getApplicationContext(),"Kiểm tra lại mã sinh viên hoặc mật khẩu",Toast.LENGTH_LONG).show();

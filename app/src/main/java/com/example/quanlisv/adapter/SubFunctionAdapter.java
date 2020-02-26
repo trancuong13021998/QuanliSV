@@ -34,13 +34,13 @@ public class SubFunctionAdapter extends RecyclerView.Adapter<SubFunctionAdapter.
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         SubFuntion subFuntion= subFuntionList.get(position);
         holder.imgIcon.setImageResource(subFuntion.getImg1());
-        holder.imgChange.setImageResource(subFuntion.getAnh2());
-        holder.txtNoidung.setText(hocPhanSV.getNdhocphan());
+        holder.imgChange.setImageResource(subFuntion.getImg2());
+        holder.txtNoidung.setText(subFuntion.getNoidung());
     }
 
     @Override
     public int getItemCount() {
-        return hocPhanSVList.size();
+        return subFuntionList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
@@ -53,6 +53,6 @@ public class SubFunctionAdapter extends RecyclerView.Adapter<SubFunctionAdapter.
             txtNoidung = (TextView)itemView.findViewById(R.id.txtNoidung);
 
         }
-    }{
+    }
 
 }

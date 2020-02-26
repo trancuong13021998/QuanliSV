@@ -1,7 +1,7 @@
 package com.example.quanlisv.utility;
 
 public class Server {
-    public static String localhost = "192.168.3.193";
+    public static String localhost = "192.168.3.129";
     public static String urlLogin = "http://" + localhost + "/serverSV/login.php";
     public static String urlThongtinSv = "http://" + localhost + "/serverSV/thongtinsv.php";
     public static String duongDanDienThoai = "http://" + localhost + "/demoapp/getsanpham.php?page=";
