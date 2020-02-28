@@ -4,7 +4,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -12,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.quanlisv.R;
-import com.example.quanlisv.activity.TrangchuActivity;
 import com.example.quanlisv.model.SinhVien;
 import com.squareup.picasso.Picasso;
 
@@ -32,7 +30,7 @@ public class SinhVienAdapter extends RecyclerView.Adapter<SinhVienAdapter.ViewHo
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_sv,parent,false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.dong_thong_tinsv,parent,false);
 
         return new ViewHolder(itemView);
     }

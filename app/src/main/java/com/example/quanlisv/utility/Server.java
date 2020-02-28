@@ -1,10 +1,12 @@
 package com.example.quanlisv.utility;
 
 public class Server {
-    public static String localhost = "192.168.3.129";
-    public static String urlLogin = "http://" + localhost + "/serverSV/login.php";
-    public static String urlThongtinSv = "http://" + localhost + "/serverSV/thongtinsv.php";
-    public static String duongDanDienThoai = "http://" + localhost + "/demoapp/getsanpham.php?page=";
-    public static String duongDanDonHang = "http://" + localhost + "/demoapp/thongtinkhachhang.php";
-    public static String duongDanChiTietDonHang = "http://" + localhost + "/demoapp/chitietdonhang.php";
+    //public static String localhost = "192.168.3.176";
+    public static String localhost ="192.168.101.106";
+    public static String urlLogin = "http://" + localhost + "/server/login.php";
+    public static String urlThongtinSv = "http://" + localhost + "/server/getthongtinsv.php";
+    public static String urlDanhsachSv = "http://" + localhost + "/server/getadmin_danhsachsv.php";
+    public static String urlThemsv = "http://" + localhost + "/server/insertsinhvien.php";
+    public static String urlUpdatesv = "http://" + localhost + "/server/updatesinhvien.php";
+    public static String urlDeletesv = "http://" + localhost + "/server/deletesinhvien.php";
 }

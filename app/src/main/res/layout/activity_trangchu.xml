@@ -6,38 +6,42 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
-    android:background="@color/gray"
     tools:context=".activity.TrangchuActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:weightSum="10"
-        android:padding="10dp">
+        android:weightSum="8"
+        android:background="@color/gray"
+        android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.8">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rclThongtin">
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="0dp"
+            android:layout_weight="6.2"
+            android:gravity="center_horizontal"
+           >
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rclThongtin"
+                android:id="@+id/recyclerview_main"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-            </androidx.recyclerview.widget.RecyclerView>
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="0dp"-->
-<!--            android:layout_weight="7.3">-->
-<!--            <androidx.recyclerview.widget.RecyclerView-->
-<!--                android:id="@+id/recyclerview_main"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent">-->
-<!--            </androidx.recyclerview.widget.RecyclerView>-->
-<!--        </LinearLayout>-->
-
     </LinearLayout>
 
 

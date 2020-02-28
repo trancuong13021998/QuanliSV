@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                             //onDestroy();
                         }
                         else if (response.contains("2")){
-                            Intent intent= new Intent(MainActivity.this, ChuongTrinhDaoTaoActivity.class);
+                            Intent intent= new Intent(MainActivity.this, AdminTrangChu.class);
                             intent.putExtra("masv",user);
                             startActivity(intent);
                         }

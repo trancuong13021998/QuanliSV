@@ -3,7 +3,7 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="50dp"
     android:weightSum="10"
-    android:id="@+id/dong_subfunction"
+    android:id="@+id/dong_chuong_trinh_dao_tao"
     android:layout_marginTop="15dp"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
@@ -11,7 +11,7 @@
     android:background="@drawable/custom_thongtinsv">
 
     <ImageView
-        android:id="@+id/img_back"
+        android:id="@+id/img_back1"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -28,10 +28,10 @@
         android:textSize="16sp"
         android:textColor="@color/white"
         android:gravity="center_vertical"
-        android:id="@+id/txtNoidung">
+        android:id="@+id/txtNoidung1">
     </TextView>
     <ImageView
-        android:id="@+id/img_change"
+        android:id="@+id/img_change1"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"

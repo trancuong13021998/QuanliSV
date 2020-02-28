@@ -8,6 +8,18 @@
     <string name="h_ng_d_n_qu_n_m_t_kh_u">Hướng dẫn quên mật khẩu?</string>
     <string name="m_sinh_vi_n">Mã sinh viên:</string>
     <string name="l_p">Lớp</string>
-    <string name="khoa_quan_l">Khoa quan lý</string>
+    <string name="khoa_quan_l">Khoa quản lý</string>
     <string name="s_d_t_i_kho_n">Số dư tài khoản</string>
+    <string name="h_c_ph_n">Học phần</string>
+    <string name="ng_y_thi">Ngày thi</string>
+    <string name="ca_thi">Ca thi</string>
+    <string name="l_n_thi">lần thi</string>
+    <string name="sbd">SBD</string>
+    <string name="ph_ng_thi">Phòng thi</string>
+    <string name="t_a_nh">Tòa nhà</string>
+    <string name="c_s">Cơ sở</string>
+    <string name="v_tr_thi">Vị trí thi</string>
+    <string name="hoc_phan">Học Phần</string>
+    <string name="tr_n_tr_ng_c_ng">Trần Trọng Cường</string>
+    <string name="h_v_t_n">Họ và tên</string>
 </resources>

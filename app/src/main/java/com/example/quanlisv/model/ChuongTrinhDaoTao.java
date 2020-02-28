@@ -1,7 +1,7 @@
 package com.example.quanlisv.model;
 
-public class SubFuntion {
-   private int img1,img2;
+public class ChuongTrinhDaoTao {
+    private int img1,img2;
     private String noidung;
     public int getImg1() {
         return img1;
@@ -27,13 +27,10 @@ public class SubFuntion {
         this.noidung = noidung;
     }
 
-    public SubFuntion(int img1, int img2, String noidung) {
+    public ChuongTrinhDaoTao(int img1, int img2, String noidung) {
         this.img1 = img1;
         this.img2 = img2;
         this.noidung = noidung;
     }
-
-
-
 
 }

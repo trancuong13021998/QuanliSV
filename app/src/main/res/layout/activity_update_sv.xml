@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".activity.ThemSVActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_themsv"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cập nhật thông tin sinh viên"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center">
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:id="@+id/edt_uptensv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_edt"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Tên sinh viên"
+        android:paddingLeft="15dp">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_upanhsv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_edt"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Ảnh sinh viên"
+        android:paddingLeft="15dp">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_uplopsv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_edt"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Lớp"
+        android:paddingLeft="15dp">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_upkhoasv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_edt"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Khoa quản lý"
+        android:paddingLeft="15dp">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_upsodutk"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_edt"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Số dư tài khoản"
+        android:paddingLeft="15dp">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_uppass"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_edt"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Mật khẩu đăng nhập"
+        android:paddingLeft="15dp">
+    </EditText>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:background="@drawable/custom_buton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Cập nhật"
+            android:backgroundTint="@color/blue"
+            android:layout_gravity="center"
+            android:id="@+id/btn_capnhat">
+        </Button>
+        <Button
+            android:background="@drawable/custom_buton"
+            android:text="Hủy"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_huyup">
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

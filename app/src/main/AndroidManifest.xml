@@ -14,8 +14,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".activity.ChuongTrinhDaoTaoActivity"></activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.AdminChuongTrinhDaoTaoActivity"></activity>
+        <activity android:name=".activity.HocPhanActivity" />
+        <activity android:name=".activity.ThemSVActivity" />
+        <activity android:name=".activity.AdminDanhSachSV" />
+        <activity android:name=".activity.AdminTrangChu" />
+        <activity android:name=".activity.ChuongTrinhDaoTaoActivity" />
         <activity android:name=".activity.TrangchuActivity" />
         <activity android:name=".activity.MainActivity">
             <intent-filter>
